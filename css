@@ -188,6 +188,12 @@ font-size: 25px;
 margin-right: 8px; 
 } 
 
+.sidebar-list li .item-label:not(.has-plus)
+span:hover { 
+    text-decoration: none !important;
+    cursor: default;
+}
+
 /* PLUS SIGN */ 
 .sidebar ul li.has-plus::after { 
 content: '+'; 
