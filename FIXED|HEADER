@@ -1,0 +1,15 @@
+body { 
+   margin: 0; 
+   font-family: sans-serif; 
+   overflow-x: hidden; 
+   padding-top: 110px;
+} 
+ 
+/* HEADER */ 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: white;
