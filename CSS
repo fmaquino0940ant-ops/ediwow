@@ -175,25 +175,30 @@ body {
    align-items: center; 
    cursor: pointer; 
    padding-left: 10px; 
-   font-size: 15px; } 
+   font-size: 15px; 
+} 
  
 .item-label::before { 
    content: '⚙'; 
    color: orange; 
    font-size: 22px; 
-   margin-right: 10px; } 
+   margin-right: 10px; 
+} 
  
 .item-label.has-plus::after { 
    content: '+'; 
    margin-left: auto;
    margin-right: 10px; 
    color: #aaa; 
-   font-size: 18px; } 
+   font-size: 18px; 
+} 
  
 .item-label span:hover { 
    text-decoration: underline; 
    text-decoration-color: orange; 
-   text-underline-offset: 5px; } 
+   text-underline-offset: 5px; 
+   text-decoration-thickness: 2px; 
+} 
  
 /* POPUP */ 
 .pop-trigger { display: none; } 
