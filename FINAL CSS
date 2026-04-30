@@ -205,6 +205,12 @@ body {
    text-underline-offset: 5px; 
    text-decoration-thickness: 2px; 
 } 
+
+.sidebar-list li .item-label:not(.has-plus)
+span:hover { 
+    text-decoration: none !important;
+    cursor: default;
+}
  
 /* POPUP */ 
 .pop-trigger { display: none; 
